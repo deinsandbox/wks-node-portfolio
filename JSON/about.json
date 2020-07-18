@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Giuliana Olmos",
+        "profession" : "Full Stack Developer",
+        "photo" : "https://i.ibb.co/ThFjyny/667e3492-0b16-4931-9946-fd6e39fdff6f.jpg",
+        "about_me" : "Soy una entusiasta de las tecnologías, amo hacer desarrollo web y confío en la colaboración entre comunidades para lograr un mejor ecosistema en el ambito de la tecnologia.",
+        "skills": [
+        "Javascript",
+        "NodeJs",
+        "ReactJS",
+        "Angular",
+        "HTML",
+        "CSS",
+        "MySQL",
+        "MongoDB"
+        ]
+    }
+]

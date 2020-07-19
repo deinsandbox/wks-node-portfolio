@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const bodyParser = require("body-parser").json();
 const simpleIcons = require("simple-icons");
 
 const app = express();
@@ -28,7 +29,7 @@ app.get("/icon", (req, res) => {
   }
 });
 
-app.post("/icon", (req, res) => {
+app.post("/icon", bodyParser, (req, res) => {
   try {
     const { name } = req.body;
     const icon = simpleIcons.get(name);

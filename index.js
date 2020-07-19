@@ -23,8 +23,9 @@ app.get("/icon", (req, res) => {
     if (!icon) {
       throw new Error(`"${slug}" icon not exists.`);
     }
-    icon.color = icons[icon.slug];
-    icon.name = icons[icon.name];
+    const { color, name } = icons[icon.slug];
+    icon.color = color;
+    icon.name = name;
     icon.color = res.status(200).json(icon);
   } catch (error) {
     res.status(500).json({ error: error.toString() });
@@ -38,8 +39,9 @@ app.post("/icon", bodyParser, (req, res) => {
     if (!icon) {
       throw new Error(`"${slug}" icon not exists.`);
     }
-    icon.color = icons[icon.slug];
-    icon.name = icons[icon.name];
+    const { color, name } = icons[icon.slug];
+    icon.color = color;
+    icon.name = name;
     res.status(200).json(icon);
   } catch (error) {
     res.status(500).json({ error: error.toString() });

@@ -10,6 +10,7 @@ const port = process.env.PORT || 8080;
 
 const about = require("./data/about.json");
 const portfolio = require("./data/portfolio.json");
+const icons = require("./data/icon.json");
 
 app.get("/", (req, res) => {
   res.send("It's Alive");
@@ -22,8 +23,9 @@ app.get("/icon", (req, res) => {
     if (!icon) {
       throw new Error(`"${name}" icon not exists.`);
     }
-
-    res.status(200).json(icon);
+    icon.color = icons[icon.slug];
+    icon.name = icons[icon.name];
+    icon.color = res.status(200).json(icon);
   } catch (error) {
     res.status(500).json({ error: error.toString() });
   }
@@ -36,7 +38,8 @@ app.post("/icon", bodyParser, (req, res) => {
     if (!icon) {
       throw new Error(`"${name}" icon not exists.`);
     }
-
+    icon.color = icons[icon.slug];
+    icon.name = icons[icon.name];
     res.status(200).json(icon);
   } catch (error) {
     res.status(500).json({ error: error.toString() });

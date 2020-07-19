@@ -1,0 +1,70 @@
+{
+    "javascript": {
+        "color": "ffffff",
+        "name": "Javascript"
+    },
+    "html5": {
+        "color": "ffffff",
+        "name": "HTML"
+    },
+    "css3": {
+        "color": "ffffff",
+        "name": "CSS"
+    },
+    "csharp": {
+        "color": "ffffff",
+        "name": "JSON"
+    },
+    "json": {
+        "color": "ffffff",
+        "name": "Jenkins"
+    },
+    "jenkins": {
+        "color": "ffffff",
+        "name": "C#"
+    },
+    "gnubash": {
+        "color": "ffffff",
+        "name": "Bash"
+    },
+    "sonarqube": {
+        "color": "ffffff",
+        "name": "SonarQube"
+    },
+    "react": {
+        "color": "ffffff",
+        "name": "React"
+    },
+    "jest": {
+        "color": "ffffff",
+        "name": "Jest"
+    },
+    "mongodb": {
+        "color": "ffffff",
+        "name": "MongoDB"
+    },
+    "node-dot-js": {
+        "color": "ffffff",
+        "name": "Node.js"
+    },
+    "twitter": {
+        "color": "ffffff",
+        "name": "Twitter"
+    },
+    "dev-dot-to": {
+        "color": "ffffff",
+        "name": "Dev.to"
+    },
+    "youtube": {
+        "color": "ffffff",
+        "name": "YouTube"
+    },
+    "stackoverflow": {
+        "color": "ffffff",
+        "name": "Stack Overflow"
+    },
+    "linkedin": {
+        "color": "ffffff",
+        "name": "LinkedIn"
+    }
+}

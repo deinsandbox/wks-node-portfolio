@@ -5,48 +5,48 @@
     "about": "I'm passionate about software development with 9 years of experience working for large companies in the financial sector and 10 years of experience in operating and directing customer service lines.",
     "from": "Medellín - Colombia",
     "skills": [
-        "Javascript",
-        "HTML",
-        "CSS",
-        "JSON",
-        "C#",
-        "Jenkins",
-        "Bash",
-        "SonarQube"
+        "javascript",
+        "html5",
+        "css3",
+        "json",
+        "csharp#",
+        "jenkins",
+        "gnubash",
+        "sonarqube"
     ],
     "learning": [
-        "React",
-        "Jest",
-        "MongoDB",
-        "Node.js"
+        "react",
+        "jest",
+        "mongodb",
+        "node-dot-js"
     ],
     "social": [
         {
-            "Twitter": {
+            "twitter": {
                 "domain": "https://twitter.com/",
                 "handle": "equiman"
             }
         },
         {
-            "Dev.to": {
+            "dev-dot-to": {
                 "domain": "https://dev.to/",
                 "handle": "equiman"
             }
         },
         {
-            "YouTube": {
+            "youtube": {
                 "domain": "https://youtube.com/c/",
                 "handle": "equimancho"
             }
         },
         {
-            "Stack Overflow": {
+            "stackoverflow": {
                 "domain": "https://stackoverflow.com/story/",
                 "handle": "equiman"
             }
         },
         {
-            "LinkedIn": {
+            "linkedin": {
                 "domain": "https://www.linkedin.com/in/",
                 "handle": "equiman"
             }

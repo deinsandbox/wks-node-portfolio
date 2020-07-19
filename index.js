@@ -18,10 +18,10 @@ app.get("/", (req, res) => {
 
 app.get("/icon", (req, res) => {
   try {
-    const { name } = req.query;
-    const icon = simpleIcons.get(name);
+    const { slug } = req.query;
+    const icon = simpleIcons.get(slug);
     if (!icon) {
-      throw new Error(`"${name}" icon not exists.`);
+      throw new Error(`"${slug}" icon not exists.`);
     }
     icon.color = icons[icon.slug];
     icon.name = icons[icon.name];
@@ -33,10 +33,10 @@ app.get("/icon", (req, res) => {
 
 app.post("/icon", bodyParser, (req, res) => {
   try {
-    const { name } = req.body;
-    const icon = simpleIcons.get(name);
+    const { slug } = req.body;
+    const icon = simpleIcons.get(slug);
     if (!icon) {
-      throw new Error(`"${name}" icon not exists.`);
+      throw new Error(`"${slug}" icon not exists.`);
     }
     icon.color = icons[icon.slug];
     icon.name = icons[icon.name];

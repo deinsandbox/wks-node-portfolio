@@ -1,6 +1,6 @@
 {
     "javascript": {
-        "color": "ffffff",
+        "color": "000000",
         "name": "Javascript"
     },
     "html5": {
@@ -32,11 +32,11 @@
         "name": "SonarQube"
     },
     "react": {
-        "color": "ffffff",
+        "color": "000000",
         "name": "React"
     },
     "jest": {
-        "color": "ffffff",
+        "color": "000000",
         "name": "Jest"
     },
     "mongodb": {

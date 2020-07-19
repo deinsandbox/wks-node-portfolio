@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Toolbox",
+        "description": "C# .Net Core Library with utilities like: command line, files, log, platform, shell, system, transform and validation [ Win+Mac+Linux ]",
+        "image": "https://raw.githubusercontent.com/deinsoftware/toolbox/master/.github/social/preview.png",
+        "link" : "https://github.com/deinsoftware/toolbox"
+    },
+    {
+        "name": "Colorify",
+        "description": "C# .Net Core Console Library with Text Format: colors, alignment and lot more [ Win+Mac+Linux ]",
+        "image": "https://raw.githubusercontent.com/deinsoftware/colorify/master/.github/social/preview.png",
+        "link": "https://github.com/deinsoftware/colorify"
+    }
+
+]

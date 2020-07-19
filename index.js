@@ -6,8 +6,8 @@ app.use(cors());
 
 const port = process.env.PORT || 8080;
 
-const about = require("./JSON/about.json");
-const portfolio = require("./JSON/portfolio.json");
+const about = require("./data/about.json");
+const portfolio = require("./data/portfolio.json");
 
 app.get("/", (req, res) => {
   res.send("It's Alive");

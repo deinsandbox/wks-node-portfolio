@@ -1,0 +1,55 @@
+{
+    "name": "Camilo Martínez",
+    "profession": "Software Developer Engineer",
+    "photo": "https://avatars2.githubusercontent.com/u/933393?s=460&u=87baa6a745d3c95796f15408cc68fac250281a62&v=4",
+    "about": "I'm passionate about software development with 9 years of experience working for large companies in the financial sector and 10 years of experience in operating and directing customer service lines.",
+    "from": "Medellín - Colombia",
+    "skills": [
+        "Javascript",
+        "HTML",
+        "CSS",
+        "JSON",
+        "C#",
+        "Jenkins",
+        "Bash",
+        "SonarQube"
+    ],
+    "learning": [
+        "React",
+        "Jest",
+        "MongoDB",
+        "Node.js"
+    ],
+    "social": [
+        {
+            "Twitter": {
+                "domain": "https://twitter.com/",
+                "handle": "equiman"
+            }
+        },
+        {
+            "Dev.to": {
+                "domain": "https://dev.to/",
+                "handle": "equiman"
+            }
+        },
+        {
+            "YouTube": {
+                "domain": "https://youtube.com/c/",
+                "handle": "equimancho"
+            }
+        },
+        {
+            "Stack Overflow": {
+                "domain": "https://stackoverflow.com/story/",
+                "handle": "equiman"
+            }
+        },
+        {
+            "LinkedIn": {
+                "domain": "https://www.linkedin.com/in/",
+                "handle": "equiman"
+            }
+        }
+    ]
+}
